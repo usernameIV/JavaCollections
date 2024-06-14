@@ -1,4 +1,4 @@
-package ListCollection.Tasks;
+package ListCollection.BasicActions.Tasks;
 
 import java.util.ArrayList;
 import java.util.List;
