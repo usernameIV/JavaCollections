@@ -1,4 +1,4 @@
-package ListCollection.Shopping;
+package ListCollection.BasicActions.Shopping;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,6 @@ public class ShoppingCart <T> {
         }
         itemsList.removeAll(toRemoveItem);
     }
-
     public void calculateTotalValue() {
         double uniqueItems = 0;
         double manyItems = 0;
@@ -39,7 +38,6 @@ public class ShoppingCart <T> {
         }
         sumItems = uniqueItems + manyItems;
         System.out.printf("Total value in the cart is: %.2f", sumItems);
-
     }
     public void showItems() {
         for (Item i : itemsList) {
