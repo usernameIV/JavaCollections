@@ -1,4 +1,4 @@
-package ListCollection.Shopping;
+package ListCollection.BasicActions.Shopping;
 
 public class Item {
 
