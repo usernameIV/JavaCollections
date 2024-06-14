@@ -1,8 +1,8 @@
-package ListCollection;
+package ListCollection.BasicActions;
 
-import ListCollection.Shopping.Item;
-import ListCollection.Shopping.ShoppingCart;
-import ListCollection.Tasks.TaskList;
+import ListCollection.BasicActions.Shopping.Item;
+import ListCollection.BasicActions.Shopping.ShoppingCart;
+import ListCollection.BasicActions.Tasks.TaskList;
 
 public class ListCollectionMain {
 
