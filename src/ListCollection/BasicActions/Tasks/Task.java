@@ -1,4 +1,4 @@
-package ListCollection.Tasks;
+package ListCollection.BasicActions.Tasks;
 
 public class Task {
 
@@ -14,6 +14,6 @@ public class Task {
 
     @Override
     public String toString() {
-        return "ListCollection.Tasks:"+" descriptions = " + description;
+        return "ListCollection.BasicActions.Tasks:"+" descriptions = " + description;
     }
 }
