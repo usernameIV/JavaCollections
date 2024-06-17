@@ -1,9 +1,8 @@
-package ListCollection.SortList;
+package ListCollection.SortList.SortPeople;
 
-import ListCollection.SortList.SortNumber.SortNumber;
 import ListCollection.SortList.SortPeople.SortPerson;
 
-public class SortListMain {
+public class SortPeopleMain {
     public static void main(String[] args) {
 
         SortPerson sortP = new SortPerson();
@@ -17,18 +16,6 @@ public class SortListMain {
         System.out.println();
         System.out.println("List sorted by the height: ");
         System.out.println(sortP.sortByHeight());
-
-        SortNumber myNumber = new SortNumber();
-        myNumber.addNumbers(20);
-        myNumber.addNumbers(50);
-        myNumber.addNumbers(40);
-        myNumber.addNumbers(10);
-        myNumber.addNumbers(30);
-
-        myNumber.displayNumbers();
-        System.out.println(myNumber.sortASC());
-        System.out.println(myNumber.sortDESC());
-
 
     }
 
