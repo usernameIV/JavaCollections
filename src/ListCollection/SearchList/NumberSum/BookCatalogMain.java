@@ -1,9 +1,8 @@
-package ListCollection.SearchList;
+package ListCollection.SearchList.NumberSum;
 
 import ListCollection.SearchList.BookCatalog.BookCatalog;
-import ListCollection.SearchList.NumberSum.NumberSum;
 
-public class SearchListMain {
+public class BookCatalogMain {
     public static void main(String[] args) {
 
         BookCatalog catalog = new BookCatalog();
@@ -19,18 +18,5 @@ public class SearchListMain {
         System.out.println("Books in between gap by year searched: \n" + catalog.searchPostYearGap(2020, 2022));
         System.out.println("\nResult of search by title:r" + catalog.searchBookByTitle("Book 1"));
 
-
-        NumberSum sum = new NumberSum();
-
-        sum.addNumber(20);
-        sum.addNumber(30);
-        sum.addNumber(40);
-
-        sum.calculateSum();
-
-        sum.findBiggestNumber();
-
-        sum.findSmallestNumber();
-        sum.displayNumbers();
     }
 }
