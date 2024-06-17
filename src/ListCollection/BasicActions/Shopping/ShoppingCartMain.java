@@ -1,30 +1,11 @@
-package ListCollection.BasicActions;
+package ListCollection.BasicActions.Shopping;
 
 import ListCollection.BasicActions.Shopping.Item;
 import ListCollection.BasicActions.Shopping.ShoppingCart;
-import ListCollection.BasicActions.Tasks.TaskList;
 
-public class ListCollectionMain {
+public class ShoppingCartMain {
 
     public static void main(String[] args) {
-
-        TaskList taskList = new TaskList();
-        System.out.println("All elements list: "+ taskList.getAllTasks());
-
-
-        taskList.addTask("Tarefa 1");
-        taskList.addTask("Tarefa 1");
-        taskList.addTask("Tarefa 2");
-        System.out.println("All elements list: "+ taskList.getAllTasks());
-
-        taskList.removeTask("Tarefa 1");
-        System.out.println("All elements list: "+ taskList.getAllTasks());
-
-        System.out.println();
-
-        taskList.getTasksDescription();
-
-
 
         ShoppingCart<Item> cart = new ShoppingCart<>();
         cart.addItem("Pão de caixa", 6.50, 2);
