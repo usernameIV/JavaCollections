@@ -1,6 +1,5 @@
 package SetColletion.SortSet.ProductRegister;
 
-import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -13,7 +12,7 @@ public class ProductRegister {
     }
 
     public void addProduct(String name, long id, double price, int qnt) {
-        products.add(new Product(name, id, price, qnt));
+        products.add(new Product(name, price, qnt));
     }
 
     public Set<Product> displayProductsByName() {
