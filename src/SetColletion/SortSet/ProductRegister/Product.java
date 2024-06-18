@@ -9,7 +9,7 @@ public class Product implements Comparable<Product>{
     private double price;
     private int qnt;
 
-    public Product(String name, long id, double price, int qnt) {
+    public Product(String name, double price, int qnt) {
         this.name = name;
         this.id = id;
         this.price = price;
